@@ -1,0 +1,9 @@
+<ul class="nav nav-pills flex-column mb-auto">
+  @for (link of links; track link;){
+  <li class="nav-item">
+    <a routerLink="{{link.path}}" class="nav-link">
+      {{link.title}}
+    </a>
+  </li>
+  }
+</ul>
